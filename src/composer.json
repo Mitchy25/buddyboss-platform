@@ -1,0 +1,25 @@
+{
+    "name": "buddyboss/buddyboss-platform",
+    "description": "The BuddyBoss Platform adds community features to WordPress. Member Profiles, Activity Feeds, Direct Messaging, Notifications, and more!",
+    "type": "wordpress-plugin",
+    "keywords": ["activity", "community", "friends", "groups", "messaging", "notifications", "profiles", "social network"],
+    "homepage": "https://www.buddyboss.com/",
+    "license": "GPL-2.0-or-later",
+    "authors": [{
+        "name": "BuddyBoss Platform",
+        "homepage": "https://www.buddyboss.com/platform/"
+    }],
+    "support": {
+        "tutorials": "https://www.buddyboss.com/resources/docs/",
+        "reference": "https://www.buddyboss.com/resources/reference/",
+        "issues": "https://github.com/buddyboss/buddyboss-platform/issues",
+        "source": "https://github.com/buddyboss/buddyboss-platform"
+    },
+    "require": {
+        "composer/installers": "~1.0",
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["bp-integrations/"]
+    }
+}
